@@ -1,0 +1,24 @@
+.form{
+    background-color: rgb(254, 191, 73);
+    box-shadow: 2px 2px 30px 5px black;
+    border-radius: 30px;
+    font-size: 12px;
+}
+label{
+    font-size: large;
+}
+img{
+    width: auto;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    position: relative;
+
+}
+.delete{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
