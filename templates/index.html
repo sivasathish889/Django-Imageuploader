@@ -18,7 +18,7 @@
                     <div class="card-body">
                         
                         <div class="delete">
-                            <a href="delete/{{x.id}}/" > <button class="btn btn-danger">X</buttonc> </a>
+                            <a href="{% url "delete" x.id %}" > <button class="btn btn-danger">X</buttonc> </a>
                         </div>
                     </div>
                     <img src="{{x.image}}" alt="" class="card-image-bottomtext-center">
